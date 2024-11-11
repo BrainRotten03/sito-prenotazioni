@@ -8,7 +8,7 @@ form.addEventListener('submit', async (e) => {
     const time = document.getElementById('time').value;
 
     try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbzQWyx-jndoskwI7CUSMcZ5wxpxCB9GIRKsMolwNpu8uI3fT5SBHm1I5F4EjoNTYg5V5Q/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycby_MVl5SEs1Kl8HmER6-VXd8NUmI2SFMbQfqMG3TJ0UYEmV0CSnk7MuRQCsBE3defAAJw/exec", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ name, email, date, time })
