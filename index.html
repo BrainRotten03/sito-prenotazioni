@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prenotazioni - Il Tuo Salone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Benvenuto nel Salone!</h1>
+        <p>Prenota un appuntamento con facilità</p>
+    </header>
+    <main>
+        <form id="booking-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" required>
+            
+            <label for="time">Ora:</label>
+            <input type="time" id="time" required>
+
+            <button type="submit">Prenota Ora</button>
+        </form>
+        <div id="success-message" style="display:none;">Prenotazione effettuata con successo!</div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
